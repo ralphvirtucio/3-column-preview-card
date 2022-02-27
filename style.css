@@ -10,22 +10,51 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  background-color: hsl(0, 0%, 95%);
 }
-/* 
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 50%;
 }
 
+.content {
+  /* display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem; */
+}
+
 .content---sedan {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .content---suv {
   background-color: hsl(184, 100%, 22%);
 }
 
-.content---luxury-cruise {
+.content---luxury {
   background-color: hsl(179, 100%, 13%);
-} */
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.content-heading {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+.content-description {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+  font-family: 'Big Shoulders Display', cursive;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+}
