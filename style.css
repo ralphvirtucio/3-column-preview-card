@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+/* 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 50%;
+}
+
+.content---sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.content---suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.content---luxury-cruise {
+  background-color: hsl(179, 100%, 13%);
+} */
