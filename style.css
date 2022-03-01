@@ -16,9 +16,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* max-width: 50%; */
   max-width: 60rem;
-  /* gap: 1rem; */
 }
 
 .content {
@@ -78,6 +76,8 @@ body {
   background-color: hsl(0, 0%, 95%);
   font-size: 1rem;
   transition: all 0.3s;
+  display: inline-block;
+  margin-bottom: 6rem;
 }
 
 .btn---sedan:link,
@@ -120,6 +120,7 @@ body {
   .container {
     grid-template-columns: repeat(1, 1fr);
     max-width: 30rem;
+    margin: 2rem 0;
   }
 
   .content---sedan {
